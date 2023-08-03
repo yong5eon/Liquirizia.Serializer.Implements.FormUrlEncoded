@@ -18,3 +18,6 @@ encoded = SerializerHelper.Encode(_, format='application/x-www-form-urlencoded',
 decoded = SerializerHelper.Decode(encoded, format='application/x-www-form-urlencoded', charset='utf-8')
 print(encoded, decoded)
 ```
+
+## 개선사항
+* [ ] Form-UrlEncoder 를 사용하기 위한 객체 구현 및 객체를 통한 사용 방법 변경

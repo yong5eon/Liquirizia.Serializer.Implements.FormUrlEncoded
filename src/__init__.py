@@ -3,15 +3,16 @@
 from .Encoder import Encoder
 from .Decoder import Decoder
 
-from Liquirizia.Serializer import SerializerHelper
-
 __all__ = (
+	'FORMATS',
 	'Encoder',
 	'Decoder',
 )
 
 
-SerializerHelper.Set('application/x-www-form-urlencoded', Encoder, Decoder)
-SerializerHelper.Set('application/x-www-form', Encoder, Decoder)
-SerializerHelper.Set('form-urlencoded', Encoder, Decoder)
-SerializerHelper.Set('form', Encoder, Decoder)
+FORMATS = [
+	'application/x-www-form-urlencoded',
+	'form-urlencoded',
+	'application/x-www-form',
+	'form',
+]
