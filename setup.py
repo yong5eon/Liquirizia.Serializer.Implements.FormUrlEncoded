@@ -5,7 +5,7 @@ from setuptools import setup, find_packages
 PKG = 'Liquirizia.Serializer.Implements.FormUrlEncoded'
 SRC = 'src'
 EXCLUDES = []
-DESC = 'Form-UrlEncoded Serializer of Python Modernized Application Framework Liquirizia'
+DESC = 'Form-UrlEncoded Serializer of Liquirizia'
 WHO = 'Heo Yongseon'
 
 PKGS = [PKG]
@@ -29,9 +29,9 @@ setup(
 		'Programming Language :: Python :: 3.9',
 		'Programming Language :: Python :: 3.10',
 		'Programming Language :: Python :: 3.11',
-		'Application Framework :: Liquirizia',
-		'Application Framework :: Liquirizia :: Serializer',
-		'Application Framework :: Liquirizia :: Serializer :: FormUrlEncoded',
+		'Liquirizia',
+		'Liquirizia :: Serializer',
+		'Liquirizia :: Serializer :: FormUrlEncoded',
 	],
 	install_requires=[
 		'Liquirizia@git+https://github.com/yong5eon/Liquirizia.git',
